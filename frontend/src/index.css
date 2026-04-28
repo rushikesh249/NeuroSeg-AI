@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-deep text-slate-800 antialiased selection:bg-accent-blue/20 selection:text-black;
+    font-family: 'Plus Jakarta Sans', 'Outfit', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/40 backdrop-blur-2xl border border-white/50 shadow-soft;
+  }
+  
+  .glass-card {
+    @apply glass rounded-3xl p-6 shadow-apple transition-all duration-500 hover:shadow-xl;
+  }
+  
+  .medical-accent {
+    @apply text-accent-blue font-semibold tracking-tight;
+  }
+
+  .clean-border {
+    @apply border border-slate-200/60 hover:border-slate-300 transition-all;
+  }
+}
+
+/* Custom Niivue Styles */
+canvas#niivue-canvas {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-slate-400/20 rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400/40;
+}
