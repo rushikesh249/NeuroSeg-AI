@@ -9,7 +9,7 @@ pinned: false
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HarshitJain26-2/Brain-Tumor-3D/main/frontend/public/favicon.svg" alt="NeuroSeg AI Logo" width="120" onerror="this.src='https://cdn.iconscout.com/icon/premium/png-256-thumb/brain-network-2144357-1804245.png'"/>
+  <img src="https://raw.githubusercontent.com/rushikesh249/NeuroSeg-AI/main/frontend/public/favicon.svg" alt="NeuroSeg AI Logo" width="120" onerror="this.src='https://cdn.iconscout.com/icon/premium/png-256-thumb/brain-network-2144357-1804245.png'"/>
 
 # 🧬 NeuroSeg AI: 3D Brain Tumor Segmentation
 **Advanced Radiology Intelligence & Volumetric Analysis**
@@ -136,12 +136,11 @@ For researchers and developers, establishing the local environment is straightfo
 
 Since medical models are massive, verify that Git LFS is operational.
 ```bash
-git clone https://github.com/HarshitJain26-2/Brain-Tumor-3D.git
-cd Brain-Tumor-3D
+git clone https://github.com/rushikesh249/NeuroSeg-AI.git
+cd NeuroSeg-AI
 
-# Critical: Pull the 275MB .pth model file
-git lfs install
-git lfs pull
+# Note: The 275MB .pth model file is hosted externally to respect GitHub bandwidth limits.
+# Please download `best_model.pth` from the provided releases/drive link and place it in the `models/` directory.
 ```
 
 ### 2. Backend Initialization
