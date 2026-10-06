@@ -1,12 +1,4 @@
----
-title: NeuroSeg AI - 3D Brain Tumor Segmenter
-emoji: 🧠
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-pinned: false
----
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/rushikesh249/NeuroSeg-AI/main/frontend/public/favicon.svg" alt="NeuroSeg AI Logo" width="120" onerror="this.src='https://cdn.iconscout.com/icon/premium/png-256-thumb/brain-network-2144357-1804245.png'"/>
